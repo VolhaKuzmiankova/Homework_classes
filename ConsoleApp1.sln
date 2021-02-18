@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{4DFD1B46-0DB2-484A-9B05-A11EEC0988D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_Classes", "Homework_Classes\Homework_Classes.csproj", "{4DFD1B46-0DB2-484A-9B05-A11EEC0988D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

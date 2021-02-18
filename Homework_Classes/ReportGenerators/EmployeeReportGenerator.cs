@@ -11,11 +11,11 @@ namespace ConsoleApp1.Reports
         {
             var castedEmployees  = employees.OfType<Employee>();
             var sortedEmployees = castedEmployees.OrderByDescending(employee => employee.Company.Name)
-                .ThenByDescending(employee => employee.Salary).ToList();
+                .ThenByDescending(employee => employee.Job.JobSalary).ToList();
             Console.WriteLine("UserId || Company Name || Users Full Name || Salary");
             foreach (var employee in sortedEmployees)
             {
-                Console.WriteLine($"{employee.Id} || {employee.Company.Name} || {employee.FullName} || {employee.Salary}");
+                Console.WriteLine($"{employee.Id} || {employee.Company.Name} || {employee.FullName} || {employee.Job.JobSalary}");
             }
         }
     }

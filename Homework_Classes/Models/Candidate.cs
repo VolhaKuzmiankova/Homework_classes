@@ -5,7 +5,7 @@
         public string DesiredTitle { get; set; }
         public string PositionDescription { get; set; }
         public string DesiredSalary { get; set; }
-        
+
         public override string ToString()
         {
             return
